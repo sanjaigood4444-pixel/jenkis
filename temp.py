@@ -1,8 +1,8 @@
 def convert_temperature():
     print("--- Temperature Unit Converter ---")
     try:
-        temp = float(input("Enter the temperature value: "))
-        unit = input("Enter current unit (C, F, or K): ").upper()
+        temp = 23
+        unit ="C"
 
         if unit == 'C':
             # Celsius to others
