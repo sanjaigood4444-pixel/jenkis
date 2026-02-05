@@ -19,5 +19,11 @@ pipeline {
                 echo 'Deploy stage'
             }
         }
+        stage('Code-Quality') {
+           steps {
+               echo 'Code quality check'
+            }
+         }
+
     }
 }
